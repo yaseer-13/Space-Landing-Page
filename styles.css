@@ -6,10 +6,8 @@
 }
 
 body {
-    /* background: rgb(78, 33, 154); */
     background: radial-gradient(circle, rgba(78, 33, 154, 1) 21%, rgba(36, 18, 102, 1) 50%, rgba(7, 10, 48, 1) 100%);
     background-repeat: no-repeat;
-    /* background: #2B146E; */
     background-attachment: fixed;
 }
 
@@ -57,9 +55,8 @@ body {
 
 @keyframes earth {
     from {
-        transform: translateY(0);
+        transform: translateY(0)
     }
-
     to {
         transform: translateY(-0.938em);
     }
@@ -71,7 +68,6 @@ body {
     left: -1.875em;
     width: 10em;
     opacity: 0.7;
-
 }
 
 .planet2 {
@@ -89,7 +85,6 @@ body {
     width: 5.625em;
     opacity: 0.7;
     animation: saturn1 5s ease-in-out 0s infinite alternate both;
-    /* box-shadow: 5px 5px 19px 1px #ffffff; */
 }
 
 @keyframes saturn1 {
@@ -116,7 +111,6 @@ body {
     right: 11.25em;
     width: 4.063em;
     opacity: 0.7;
-
 }
 
 .planetsmall2 {
